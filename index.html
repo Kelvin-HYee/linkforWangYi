@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>网易云音乐外链获取工具</title>
+</head>
+<style>
+    *{margin: 0;}
+    .music{
+        width: 90%;
+        height: 500px;
+        margin: 0 auto;
+        border: dashed 5px #ccc;
+    }
+    .wangyi{
+        width: 70%;
+        height: 300px;
+        margin: 0 auto;
+        margin-top: 10%;
+        border: dashed 3px #88e176;
+    }
+    form{
+        margin-left: 35%;
+        margin-top:18%;
+    }
+    input:active{
+        border:1px solid red;
+        border-color:#58ACFA; 
+        -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s; 
+        -webkit-box-shadow:0 0 3px #58ACFA; 
+        -moz-box-shadow: 0 0 3px #58ACFA;
+        box-shadow:0 0 3px #58ACFA;
+    }
+    input:focus{
+        border:1px solid red;
+        border-color:#58ACFA; 
+        -webkit-transition:border linear .2s,-webkit-box-shadow linear .5s; 
+        -webkit-box-shadow:0 0 3px #58ACFA; 
+        -moz-box-shadow: 0 0 3px #58ACFA;
+        box-shadow:0 0 3px #58ACFA;
+    }
+</style>
+<body>
+    <div class="music">
+        <div class="wangyi">
+            <form action="get.php" method="get">
+                <input type="tel" name="id" placeholder="请输入网易云音乐id" width="10%" height="10%"/>
+                <input type="submit" value="提交" style=""/>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
